@@ -1,0 +1,14 @@
+{
+  "run_id": "58286658-062e-4636-96d2-8d7a306e01fe",
+  "status": "success",
+  "started_at": "2026-10-29T08:20:01.547914+00:00",
+  "ended_at": "2026-10-29T08:20:01.949750+00:00",
+  "pages_fetched": 1,
+  "records_fetched": 100,
+  "accepted_count": 93,
+  "rejected_count": 6,
+  "published_count": 93,
+  "skipped_existing_count": 1,
+  "reconciles": true,
+  "next_page": 2
+}

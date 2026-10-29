@@ -1,0 +1,53 @@
+﻿.....................                                                    [100%]
+=================================== PASSES ====================================
+_____________________ test_retry_after_transient_failure ______________________
+------------------------------ Captured log call ------------------------------
+WARNING  pipeline.client:client.py:43 Retryable HTTP 503 for page 2; attempt 1; sleep 0.01s
+____________________________ test_rate_limit_retry ____________________________
+------------------------------ Captured log call ------------------------------
+WARNING  pipeline.client:client.py:43 Retryable HTTP 429 for page 2; attempt 1; sleep 0.05s
+WARNING  pipeline.client:client.py:43 Retryable HTTP 429 for page 3; attempt 1; sleep 0.05s
+________________ test_persistent_failure_preserves_checkpoint _________________
+------------------------------ Captured log call ------------------------------
+WARNING  pipeline.client:client.py:43 Retryable HTTP 503 for page 2; attempt 1; sleep 0.01s
+WARNING  pipeline.client:client.py:43 Retryable HTTP 503 for page 2; attempt 2; sleep 0.02s
+ERROR    pipeline.ingestion:ingestion.py:156 run_id=784e391a-d85f-46a7-8356-177b6da2dfe8 ingestion failed at page=2
+Traceback (most recent call last):
+  File "C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\src\pipeline\ingestion.py", line 49, in run_ingestion
+    payload = client.get_page(page, int(api.get("page_size", 250)))
+  File "C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\src\pipeline\client.py", line 47, in get_page
+    response.raise_for_status()
+  File "C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Server error '503 Service Unavailable' for url 'http://127.0.0.1:8765/v1/orders?page=2&page_size=10'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503
+___________________ test_unexpected_api_schema_fails_loudly ___________________
+------------------------------ Captured log call ------------------------------
+ERROR    pipeline.ingestion:ingestion.py:156 run_id=c6075087-55cb-46b5-a82d-e67b78803ab2 ingestion failed at page=1
+Traceback (most recent call last):
+  File "C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\src\pipeline\ingestion.py", line 57, in run_ingestion
+    raise ValueError(f"Unexpected API response schema fields: {sorted(unexpected_fields)}")
+ValueError: Unexpected API response schema fields: ['unexpected_field']
+=========================== short test summary info ===========================
+PASSED tests/test_pipeline.py::test_happy_path_and_parquet
+PASSED tests/test_pipeline.py::test_empty_input
+PASSED tests/test_pipeline.py::test_invalid_records_are_quarantined
+PASSED tests/test_pipeline.py::test_retry_after_transient_failure
+PASSED tests/test_pipeline.py::test_rate_limit_retry
+PASSED tests/test_pipeline.py::test_rerun_same_input_is_idempotent
+PASSED tests/test_pipeline.py::test_persistent_failure_preserves_checkpoint
+PASSED tests/test_pipeline.py::test_authentication_required
+PASSED tests/test_pipeline.py::test_unexpected_api_schema_fails_loudly
+PASSED tests/test_pipeline.py::test_null_required_field_is_quarantined
+PASSED tests/test_pipeline.py::test_replay_counts_skipped_existing_and_reconciles
+PASSED tests/test_pipeline.py::test_identical_duplicate_in_source_is_skipped_and_counted
+PASSED tests/test_pipeline.py::test_conflicting_duplicate_is_quarantined_first_version_wins
+PASSED tests/test_pipeline.py::test_zero_amount_boundary_is_accepted
+PASSED tests/test_pipeline.py::test_negative_amount_is_quarantined
+PASSED tests/test_pipeline.py::test_unknown_customer_is_quarantined_when_reference_set_supplied
+PASSED tests/test_pipeline.py::test_unexpected_record_field_is_quarantined
+PASSED tests/test_pipeline.py::test_raw_responses_are_retained_per_page
+PASSED tests/test_pipeline.py::test_reconciliation_balances_with_bad_and_duplicate_records
+PASSED tests/test_pipeline.py::test_out_of_order_arrival_does_not_change_final_target
+PASSED tests/test_pipeline.py::test_later_version_of_existing_order_is_quarantined_not_applied
+21 passed in 8.43s

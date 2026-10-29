@@ -1,0 +1,15 @@
+api:
+  base_url: http://127.0.0.1:8000
+  token_env: API_TOKEN
+  timeout_seconds: 10
+  max_retries: 4
+  backoff_seconds: 0.2
+  requests_per_second: 20
+  page_size: 250
+paths:
+  database: data/output_large/pipeline.db
+  raw_dir: data/output_large/raw
+  quarantine_dir: data/output_large/quarantine
+  parquet_dir: data/output_large/parquet
+  reports_dir: reports_large
+  checkpoint_name: orders

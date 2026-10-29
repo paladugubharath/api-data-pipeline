@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.py[cod]
+*.egg-info/
+.env
+data/output/
+data/output_large/
+reports/
+reports_large/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite*

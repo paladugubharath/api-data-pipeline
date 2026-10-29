@@ -1,0 +1,2423 @@
+﻿python : 2026-10-29 13:26:43,102 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=1&page_size=250 
+"HTTP/1.1 200 OK"
+At line:1 char:24
++ ... e-Command { python -m pipeline.cli ingest 
+--config-path config/config ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-10-29 
+    13:2...TTP/1.1 200 OK":String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-10-29 13:26:43,132 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=1 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:43,437 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=2&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:43,456 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=2 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:43,784 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=3&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:43,806 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=3 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:44,105 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=4&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:44,125 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=4 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:44,395 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=5&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:44,411 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=5 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:44,668 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=6&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:44,689 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=6 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:44,949 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=7&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:44,971 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=7 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:45,224 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=8&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:45,245 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=8 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:45,514 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=9&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:45,546 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=9 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:45,771 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=10&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:45,795 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=10 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:46,016 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=11&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:46,037 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=11 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:46,276 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=12&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:46,292 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=12 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:46,525 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=13&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:46,546 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=13 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:46,771 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=14&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:46,791 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=14 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:47,041 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=15&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:47,058 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=15 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:47,276 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=16&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:47,278 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=16 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:47,510 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=17&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:47,527 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=17 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:47,743 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=18&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:47,760 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=18 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:47,990 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=19&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:48,024 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=19 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:48,239 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=20&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:48,267 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=20 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:48,493 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=21&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:48,561 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=21 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:48,761 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=22&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:48,786 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=22 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:49,010 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=23&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:49,015 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=23 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:49,243 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=24&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:49,267 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=24 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:49,521 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=25&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:49,543 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=25 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:49,764 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=26&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:49,786 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=26 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:50,030 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=27&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:50,044 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=27 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:50,318 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=28&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:50,334 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=28 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:50,574 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=29&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:50,600 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=29 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:50,840 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=30&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:50,862 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=30 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:51,101 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=31&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:51,122 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=31 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:51,342 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=32&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:51,371 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=32 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:51,658 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=33&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:51,674 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=33 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:51,920 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=34&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:51,940 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=34 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:52,188 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=35&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:52,204 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=35 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:52,442 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=36&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:52,459 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=36 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:52,692 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=37&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:52,706 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=37 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:52,946 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=38&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:52,958 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=38 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:53,201 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=39&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:53,216 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=39 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:53,458 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=40&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:53,484 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=40 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:53,713 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=41&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:53,742 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=41 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:53,967 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=42&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:53,988 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=42 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:54,238 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=43&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:54,256 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=43 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:54,496 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=44&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:54,514 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=44 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:54,741 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=45&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:54,760 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=45 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:54,997 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=46&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:55,014 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=46 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:55,251 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=47&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:55,265 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=47 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:55,533 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=48&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:55,562 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=48 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:55,849 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=49&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:55,867 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=49 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:56,119 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=50&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:56,141 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=50 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:56,382 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=51&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:56,402 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=51 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:56,630 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=52&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:56,646 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=52 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:56,887 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=53&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:56,905 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=53 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:57,152 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=54&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:57,173 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=54 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:57,403 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=55&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:57,426 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=55 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:57,692 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=56&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:57,723 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=56 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:57,964 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=57&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:57,982 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=57 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:58,233 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=58&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:58,254 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=58 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:58,504 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=59&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:58,524 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=59 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:58,771 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=60&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:58,789 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=60 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:59,029 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=61&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:59,058 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=61 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:59,300 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=62&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:59,323 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=62 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:59,566 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=63&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:59,600 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=63 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:26:59,841 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=64&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:26:59,860 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=64 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:00,115 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=65&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:00,117 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=65 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:00,384 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=66&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:00,401 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=66 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:00,649 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=67&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:00,666 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=67 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:00,910 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=68&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:00,931 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=68 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:01,173 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=69&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:01,192 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=69 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:01,441 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=70&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:01,490 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=70 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:01,705 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=71&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:01,724 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=71 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:01,968 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=72&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:01,988 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=72 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:02,244 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=73&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:02,272 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=73 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:02,538 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=74&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:02,554 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=74 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:02,799 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=75&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:02,821 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=75 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:03,070 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=76&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:03,106 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=76 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:03,322 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=77&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:03,343 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=77 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:03,567 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=78&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:03,584 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=78 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:03,816 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=79&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:03,851 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=79 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:04,096 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=80&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:04,113 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=80 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:04,362 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=81&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:04,362 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=81 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:04,619 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=82&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:04,668 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=82 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:04,888 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=83&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:04,915 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=83 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:05,165 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=84&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:05,182 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=84 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:05,435 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=85&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:05,456 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=85 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:05,704 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=86&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:05,723 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=86 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:05,959 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=87&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:05,981 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=87 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:06,220 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=88&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:06,260 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=88 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:06,485 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=89&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:06,504 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=89 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:06,754 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=90&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:06,777 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=90 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:07,016 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=91&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:07,038 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=91 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:07,282 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=92&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:07,306 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=92 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:07,585 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=93&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:07,607 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=93 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:07,832 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=94&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:07,869 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=94 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:08,098 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=95&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:08,124 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=95 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:08,360 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=96&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:08,377 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=96 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:08,631 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=97&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:08,649 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=97 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:08,928 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=98&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:08,950 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=98 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:09,181 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=99&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:09,204 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=99 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:09,501 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=100&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:09,533 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=100 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:09,774 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=101&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:09,801 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=101 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:10,044 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=102&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:10,062 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=102 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:10,300 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=103&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:10,322 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=103 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:10,575 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=104&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:10,603 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=104 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:10,856 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=105&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:10,890 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=105 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:11,121 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=106&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:11,140 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=106 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:11,382 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=107&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:11,407 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=107 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:11,641 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=108&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:11,670 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=108 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:11,894 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=109&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:11,923 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=109 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:12,159 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=110&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:12,204 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=110 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:12,425 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=111&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:12,444 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=111 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:12,698 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=112&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:12,722 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=112 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:12,962 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=113&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:12,978 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=113 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:13,219 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=114&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:13,242 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=114 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:13,486 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=115&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:13,525 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=115 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:13,824 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=116&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:13,853 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=116 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:14,083 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=117&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:14,103 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=117 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:14,354 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=118&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:14,369 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=118 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:14,644 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=119&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:14,663 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=119 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:14,905 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=120&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:14,938 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=120 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:15,175 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=121&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:15,196 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=121 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:15,438 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=122&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:15,466 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=122 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:15,711 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=123&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:15,727 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=123 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:15,969 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=124&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:15,994 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=124 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:16,238 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=125&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:16,274 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=125 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:16,500 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=126&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:16,526 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=126 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:16,769 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=127&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:16,791 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=127 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:17,034 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=128&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:17,051 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=128 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:17,311 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=129&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:17,324 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=129 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:17,582 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=130&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:17,618 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=130 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:17,852 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=131&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:17,876 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=131 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:18,105 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=132&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:18,120 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=132 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:18,371 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=133&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:18,379 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=133 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:18,614 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=134&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:18,641 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=134 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:18,865 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=135&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:18,904 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=135 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:19,116 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=136&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:19,142 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=136 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:19,374 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=137&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:19,377 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=137 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:19,684 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=138&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:19,706 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=138 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:19,951 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=139&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:19,970 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=139 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:20,219 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=140&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:20,251 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=140 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:20,485 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=141&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:20,517 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=141 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:20,751 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=142&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:20,768 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=142 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:21,002 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=143&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:21,024 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=143 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:21,274 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=144&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:21,292 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=144 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:21,541 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=145&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:21,579 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=145 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:21,798 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=146&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:21,820 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=146 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:22,074 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=147&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:22,086 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=147 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:22,342 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=148&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:22,360 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=148 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:22,604 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=149&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:22,625 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=149 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:22,846 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=150&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:22,891 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=150 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:23,108 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=151&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:23,136 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=151 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:23,388 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=152&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:23,409 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=152 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:23,639 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=153&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:23,663 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=153 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:23,918 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=154&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:23,935 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=154 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:24,160 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=155&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:24,202 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=155 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:24,417 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=156&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:24,442 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=156 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:24,666 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=157&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:24,687 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=157 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:24,912 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=158&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:24,926 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=158 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:25,177 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=159&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:25,195 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=159 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:25,433 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=160&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:25,472 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=160 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:25,685 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=161&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:25,703 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=161 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:25,936 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=162&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:25,962 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=162 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:26,195 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=163&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:26,220 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=163 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:26,450 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=164&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:26,469 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=164 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:26,717 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=165&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:26,765 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=165 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:26,974 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=166&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:26,992 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=166 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:27,230 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=167&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:27,260 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=167 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:27,491 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=168&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:27,509 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=168 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:27,748 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=169&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:27,776 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=169 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:28,001 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=170&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:28,045 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=170 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:28,268 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=171&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:28,287 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=171 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:28,534 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=172&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:28,551 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=172 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:28,778 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=173&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:28,810 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=173 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:29,060 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=174&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:29,082 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=174 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:29,313 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=175&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:29,357 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=175 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:29,589 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=176&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:29,620 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=176 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:29,853 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=177&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:29,870 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=177 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:30,127 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=178&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:30,143 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=178 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:30,399 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=179&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:30,417 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=179 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:30,661 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=180&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:30,705 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=180 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:30,923 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=181&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:30,952 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=181 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:31,189 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=182&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:31,204 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=182 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:31,491 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=183&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:31,513 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=183 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:31,751 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=184&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:31,787 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=184 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:32,026 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=185&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:32,050 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=185 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:32,294 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=186&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:32,316 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=186 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:32,560 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=187&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:32,581 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=187 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:32,824 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=188&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:32,875 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=188 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:33,081 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=189&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:33,102 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=189 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:33,353 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=190&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:33,375 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=190 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:33,623 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=191&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:33,647 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=191 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:33,890 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=192&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:33,929 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=192 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:34,155 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=193&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:34,183 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=193 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:34,440 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=194&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:34,460 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=194 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:34,712 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=195&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:34,733 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=195 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:34,964 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=196&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:34,981 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=196 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:35,226 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=197&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:35,336 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=197 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:35,548 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=198&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:35,574 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=198 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:35,821 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=199&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:35,837 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=199 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:36,091 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=200&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:36,104 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=200 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:36,358 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=201&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:36,392 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=201 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:36,630 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=202&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:36,654 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=202 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:36,902 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=203&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:36,920 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=203 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:37,164 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=204&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:37,183 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=204 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:37,427 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=205&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:37,476 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=205 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:37,693 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=206&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:37,721 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=206 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:38,017 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=207&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:38,040 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=207 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:38,293 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=208&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:38,311 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=208 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:38,542 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=209&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:38,589 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=209 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:38,804 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=210&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:38,827 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=210 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:39,065 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=211&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:39,087 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=211 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:39,339 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=212&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:39,360 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=212 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:39,590 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=213&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:39,620 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=213 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:39,854 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=214&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:39,875 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=214 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:40,098 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=215&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:40,115 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=215 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:40,360 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=216&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:40,374 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=216 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:40,613 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=217&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:40,663 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=217 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:40,876 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=218&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:40,892 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=218 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:41,138 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=219&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:41,164 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=219 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:41,390 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=220&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:41,411 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=220 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:41,651 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=221&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:41,695 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=221 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:41,905 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=222&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:41,935 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=222 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:42,171 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=223&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:42,187 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=223 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:42,445 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=224&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:42,469 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=224 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:42,700 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=225&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:42,742 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=225 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:42,956 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=226&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:42,975 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=226 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:43,218 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=227&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:43,237 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=227 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:43,495 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=228&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:43,513 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=228 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:43,761 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=229&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:43,808 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=229 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:44,023 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=230&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:44,053 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=230 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:44,293 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=231&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:44,311 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=231 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:44,538 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=232&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:44,562 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=232 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:44,803 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=233&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:44,849 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=233 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:45,051 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=234&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:45,075 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=234 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:45,322 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=235&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:45,342 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=235 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:45,596 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=236&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:45,615 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=236 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:45,853 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=237&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:45,897 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=237 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:46,100 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=238&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:46,122 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=238 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:46,376 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=239&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:46,397 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=239 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:46,636 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=240&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:46,654 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=240 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:46,899 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=241&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:46,947 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=241 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:47,167 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=242&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:47,188 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=242 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:47,428 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=243&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:47,449 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=243 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:47,688 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=244&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:47,712 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=244 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:47,959 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=245&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:48,006 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=245 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:48,218 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=246&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:48,239 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=246 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:48,479 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=247&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:48,508 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=247 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:48,743 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=248&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:48,763 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=248 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:49,002 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=249&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:49,052 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=249 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:49,271 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=250&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:49,312 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=250 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:49,518 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=251&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:49,539 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=251 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:49,788 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=252&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:49,806 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=252 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:50,069 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=253&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:50,114 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=253 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:50,371 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=254&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:50,403 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=254 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:50,629 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=255&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:50,655 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=255 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:50,905 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=256&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:50,935 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=256 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:51,193 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=257&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:51,243 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=257 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:51,465 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=258&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:51,488 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=258 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:51,717 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=259&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:51,738 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=259 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:51,973 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=260&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:51,988 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=260 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:52,249 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=261&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:52,294 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=261 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:52,528 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=262&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:52,551 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=262 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:52,780 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=263&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:52,808 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=263 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:53,061 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=264&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:53,087 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=264 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:53,326 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=265&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:53,380 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=265 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:53,578 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=266&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:53,605 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=266 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:53,851 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=267&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:53,872 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=267 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:54,121 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=268&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:54,154 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=268 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:54,394 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=269&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:54,442 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=269 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:54,660 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=270&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:54,681 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=270 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:54,930 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=271&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:54,949 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=271 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:55,280 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=272&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:55,400 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=272 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:55,618 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=273&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:55,665 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=273 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:55,874 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=274&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:55,906 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=274 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:56,121 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=275&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:56,142 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=275 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:56,376 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=276&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:56,395 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=276 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:56,654 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=277&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:56,701 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=277 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:56,971 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=278&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:56,998 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=278 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:57,234 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=279&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:57,271 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=279 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:57,497 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=280&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:57,525 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=280 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:57,752 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=281&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:57,816 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=281 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:58,042 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=282&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:58,073 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=282 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:58,314 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=283&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:58,335 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=283 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:58,581 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=284&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:58,606 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=284 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:58,863 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=285&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:58,912 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=285 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:59,121 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=286&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:59,156 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=286 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:59,389 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=287&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:59,407 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=287 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:59,646 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=288&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:59,666 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=288 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:27:59,916 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=289&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:27:59,963 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=289 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:00,179 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=290&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:00,206 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=290 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:00,449 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=291&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:00,468 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=291 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:00,711 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=292&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:00,750 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=292 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:00,961 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=293&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:01,014 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=293 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:01,230 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=294&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:01,250 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=294 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:01,482 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=295&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:01,508 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=295 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:01,745 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=296&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:01,775 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=296 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:02,008 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=297&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:02,039 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=297 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:02,282 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=298&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:02,306 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=298 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:02,559 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=299&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:02,579 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=299 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:02,816 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=300&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:02,836 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=300 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:03,077 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=301&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:03,127 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=301 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:03,372 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=302&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:03,398 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=302 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:03,621 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=303&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:03,640 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=303 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:03,888 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=304&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:03,909 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=304 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:04,135 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=305&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:04,192 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=305 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:04,401 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=306&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:04,423 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=306 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:04,662 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=307&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:04,681 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=307 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:04,929 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=308&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:04,950 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=308 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:05,200 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=309&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:05,250 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=309 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:05,462 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=310&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:05,488 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=310 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:05,725 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=311&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:05,751 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=311 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:05,979 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=312&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:06,006 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=312 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:06,231 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=313&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:06,286 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=313 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:06,492 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=314&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:06,508 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=314 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:06,747 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=315&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:06,772 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=315 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:07,006 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=316&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:07,024 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=316 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:07,262 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=317&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:07,320 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=317 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:07,513 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=318&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:07,540 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=318 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:07,765 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=319&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:07,789 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=319 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:08,031 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=320&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:08,069 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=320 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:08,310 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=321&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:08,364 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=321 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:08,565 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=322&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:08,590 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=322 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:08,840 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=323&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:08,859 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=323 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:09,089 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=324&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:09,110 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=324 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:09,341 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=325&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:09,397 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=325 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:09,628 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=326&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:09,655 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=326 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:09,912 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=327&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:09,929 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=327 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:10,162 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=328&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:10,183 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=328 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:10,424 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=329&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:10,472 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=329 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:10,681 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=330&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:10,702 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=330 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:10,940 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=331&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:10,962 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=331 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:11,208 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=332&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:11,229 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=332 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:11,476 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=333&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:11,525 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=333 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:11,739 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=334&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:11,763 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=334 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:11,996 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=335&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:12,022 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=335 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:12,247 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=336&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:12,281 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=336 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:12,492 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=337&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:12,547 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=337 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:12,748 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=338&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:12,769 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=338 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:12,983 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=339&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:13,022 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=339 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:13,232 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=340&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:13,252 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=340 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:13,486 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=341&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:13,542 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=341 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:13,755 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=342&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:13,777 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=342 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:14,024 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=343&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:14,044 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=343 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:14,290 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=344&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:14,307 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=344 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:14,560 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=345&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:14,610 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=345 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:14,802 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=346&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:14,825 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=346 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:15,062 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=347&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:15,090 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=347 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:15,313 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=348&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:15,337 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=348 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:15,567 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=349&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:15,616 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=349 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:15,834 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=350&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:15,862 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=350 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:16,079 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=351&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:16,105 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=351 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:16,324 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=352&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:16,354 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=352 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:16,579 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=353&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:16,635 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=353 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:16,824 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=354&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:16,859 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=354 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:17,080 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=355&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:17,107 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=355 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:17,338 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=356&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:17,374 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=356 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:17,599 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=357&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:17,655 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=357 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:17,861 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=358&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:17,891 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=358 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:18,118 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=359&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:18,147 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=359 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:18,367 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=360&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:18,387 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=360 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:18,600 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=361&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:18,669 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=361 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:18,863 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=362&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:18,887 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=362 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:19,118 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=363&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:19,141 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=363 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:19,366 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=364&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:19,390 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=364 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:19,639 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=365&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:19,688 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=365 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:19,877 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=366&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:19,902 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=366 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:20,132 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=367&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:20,226 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=367 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:20,420 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=368&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:20,448 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=368 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:20,665 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=369&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:20,726 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=369 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:20,917 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=370&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:20,954 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=370 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:21,182 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=371&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:21,204 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=371 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:21,432 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=372&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:21,460 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=372 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:21,684 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=373&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:21,739 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=373 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:21,966 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=374&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:22,002 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=374 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:22,185 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=375&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:22,217 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=375 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:22,417 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=376&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:22,450 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=376 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:22,671 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=377&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:22,722 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=377 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:22,911 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=378&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:22,938 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=378 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:23,163 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=379&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:23,183 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=379 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:23,400 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=380&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:23,426 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=380 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:23,646 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=381&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:23,706 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=381 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:23,897 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=382&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:23,920 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=382 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:24,150 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=383&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:24,174 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=383 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:24,396 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=384&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:24,424 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=384 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:24,650 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=385&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:24,705 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=385 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:24,901 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=386&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:24,922 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=386 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:25,166 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=387&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:25,185 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=387 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:25,414 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=388&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:25,442 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=388 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:25,668 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=389&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:25,723 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=389 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:25,915 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=390&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:25,941 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=390 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:26,166 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=391&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:26,188 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=391 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:26,419 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=392&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:26,438 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=392 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:26,665 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=393&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:26,727 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=393 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:26,921 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=394&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:26,956 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=394 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:27,165 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=395&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:27,183 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=395 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:27,412 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=396&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:27,440 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=396 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:27,664 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=397&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:27,718 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=397 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:27,917 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=398&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:27,939 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=398 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:28,213 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=399&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:28,243 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=399 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+2026-10-29 13:28:28,472 INFO HTTP Request: GET 
+http://127.0.0.1:8000/v1/orders?page=400&page_size=250 
+"HTTP/1.1 200 OK"
+2026-10-29 13:28:28,497 INFO 
+run_id=6dbcc3e6-4ea4-4e93-ba6b-2085df41b498 page=400 
+fetched=250 accepted=250 rejected=0 skipped_existing=0
+{
+  "run_id": "6dbcc3e6-4ea4-4e93-ba6b-2085df41b498",
+  "status": "success",
+  "started_at": "2026-10-29T07:56:42.611543+00:00",
+  "ended_at": "2026-10-29T07:58:28.497013+00:00",
+  "pages_fetched": 400,
+  "records_fetched": 100000,
+  "accepted_count": 100000,
+  "rejected_count": 0,
+  "published_count": 100000,
+  "skipped_existing_count": 0,
+  "reconciles": true,
+  "next_page": 401
+}

@@ -1,0 +1,17 @@
+{
+  "run_count": 2,
+  "records_fetched_across_runs": 200,
+  "accepted_across_runs": 93,
+  "rejected_across_runs": 12,
+  "published_across_runs": 93,
+  "skipped_existing_across_runs": 95,
+  "unexplained_records": 0,
+  "source_reconciles": true,
+  "target_matches_accepted": true,
+  "target_rows": 93,
+  "target_amount_sum": 210093.06,
+  "quarantine_rows": 12,
+  "duplicate_target_keys": 0,
+  "target_primary_key_unique": true,
+  "note": "Run-level counts include replays; target_rows is the unique current target state. Quarantine is an append-only audit log, one set of rows per run."
+}

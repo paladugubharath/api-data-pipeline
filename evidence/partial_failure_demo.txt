@@ -1,0 +1,716 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261028151457
+Username: POOR1\0203p
+RunAs User: POOR1\0203p
+Configuration Name: 
+Machine: POOR1 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 25512
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is evidence\partial_failure_demo.txt
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) curl.exe -X POST http://127.0.0.1:8000/__control/reset 2>&1 | Tee-Object -FilePath evidence\partial_failure_demo.txt -Append
+>> TerminatingError(out-file): "The process cannot access the file 'C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\evidence\partial_failure_demo.txt' because it is being used by another process."
+out-file : The process cannot access the file 
+'C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\evidence\partial_failure_demo.txt' because it is being used 
+by another process.
+At line:1 char:1
++ curl.exe -X POST http://127.0.0.1:8000/__control/reset 2>&1 | Tee-Obj ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+out-file : The process cannot access the file
+'C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\evidence\partial_failure_demo.txt' because it is being
+used by another process.
+At line:1 char:1
++ curl.exe -X POST http://127.0.0.1:8000/__control/reset 2>&1 | Tee-Obj ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) python -m pipeline.cli ingest 2>&1 | Tee-Object -FilePath evidence\partial_failure_demo.txt -Append
+>> TerminatingError(out-file): "The process cannot access the file 'C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\evidence\partial_failure_demo.txt' because it is being used by another process."
+out-file : The process cannot access the file 
+'C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\evidence\partial_failure_demo.txt' because it is being used 
+by another process.
+At line:1 char:1
++ python -m pipeline.cli ingest 2>&1 | Tee-Object -FilePath evidence\pa ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+out-file : The process cannot access the file
+'C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\evidence\partial_failure_demo.txt' because it is being
+used by another process.
+At line:1 char:1
++ python -m pipeline.cli ingest 2>&1 | Tee-Object -FilePath evidence\pa ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) python scripts\show_state.py 2>&1 | Tee-Object -FilePath evidence\partial_failure_demo.txt -Append
+>> TerminatingError(out-file): "The process cannot access the file 'C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\evidence\partial_failure_demo.txt' because it is being used by another process."
+out-file : The process cannot access the file 
+'C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\evidence\partial_failure_demo.txt' because it is being used 
+by another process.
+At line:1 char:1
++ python scripts\show_state.py 2>&1 | Tee-Object -FilePath evidence\par ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+out-file : The process cannot access the file
+'C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\evidence\partial_failure_demo.txt' because it is being
+used by another process.
+At line:1 char:1
++ python scripts\show_state.py 2>&1 | Tee-Object -FilePath evidence\par ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) python -m pipeline.cli reconcile 2>&1 | Tee-Object -FilePath evidence\partial_failure_demo.txt -Append
+>> TerminatingError(out-file): "The process cannot access the file 'C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\evidence\partial_failure_demo.txt' because it is being used by another process."
+out-file : The process cannot access the file 
+'C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\evidence\partial_failure_demo.txt' because it is being used 
+by another process.
+At line:1 char:1
++ python -m pipeline.cli reconcile 2>&1 | Tee-Object -FilePath evidence ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+out-file : The process cannot access the file
+'C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\evidence\partial_failure_demo.txt' because it is being
+used by another process.
+At line:1 char:1
++ python -m pipeline.cli reconcile 2>&1 | Tee-Object -FilePath evidence ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [out-file], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) findstr page_size config\config.yaml
+  page_size: 250
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) (Get-Content config\config.yaml) -replace 'page_size: 250','page_size: 25' | Set-Content config\config.yaml
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) findstr page_size config\config.yaml
+  page_size: 25
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) Remove-Item data\output\pipeline.db* -Force -ErrorAction SilentlyContinue
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) Remove-Item data\output\raw -Recurse -Force -ErrorAction SilentlyContinue
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) Remove-Item reports\run_*.json -ErrorAction SilentlyContinue
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) curl.exe -X POST http://127.0.0.1:8000/__control/reset
+{"status":"reset"}
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) curl.exe -X POST http://127.0.0.1:8000/__control/fail-always/2
+{"page":2,"mode":"fail_always"}
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) python -m pipeline.cli ingest 2>&1 | Tee-Object -FilePath evidence\failure_run.txt
+python : 2026-10-28 15:29:48,631 INFO HTTP Request: GET http://127.0.0.1:8000/v1/orders?page=1&page_size=25 "HTTP/1.1
+200 OK"
+At line:1 char:1
++ python -m pipeline.cli ingest 2>&1 | Tee-Object -FilePath evidence\fa ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-10-28 15:2...TTP/1.1 200 OK":String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+2026-10-28 15:29:48,639 INFO run_id=f29b823e-7d9e-4ccd-b350-715dd1e9cdcf page=1 fetched=25 accepted=18 rejected=6
+skipped_existing=1
+2026-10-28 15:29:48,678 INFO HTTP Request: GET http://127.0.0.1:8000/v1/orders?page=2&page_size=25 "HTTP/1.1 503
+Service Unavailable"
+2026-10-28 15:29:48,678 WARNING Retryable HTTP 503 for page 2; attempt 1; sleep 0.20s
+2026-10-28 15:29:48,887 INFO HTTP Request: GET http://127.0.0.1:8000/v1/orders?page=2&page_size=25 "HTTP/1.1 503
+Service Unavailable"
+2026-10-28 15:29:48,887 WARNING Retryable HTTP 503 for page 2; attempt 2; sleep 0.40s
+2026-10-28 15:29:49,296 INFO HTTP Request: GET http://127.0.0.1:8000/v1/orders?page=2&page_size=25 "HTTP/1.1 503
+Service Unavailable"
+2026-10-28 15:29:49,296 WARNING Retryable HTTP 503 for page 2; attempt 3; sleep 0.80s
+2026-10-28 15:29:50,107 INFO HTTP Request: GET http://127.0.0.1:8000/v1/orders?page=2&page_size=25 "HTTP/1.1 503
+Service Unavailable"
+2026-10-28 15:29:50,107 WARNING Retryable HTTP 503 for page 2; attempt 4; sleep 1.60s
+2026-10-28 15:29:51,727 INFO HTTP Request: GET http://127.0.0.1:8000/v1/orders?page=2&page_size=25 "HTTP/1.1 503
+Service Unavailable"
+2026-10-28 15:29:51,731 ERROR run_id=f29b823e-7d9e-4ccd-b350-715dd1e9cdcf ingestion failed at page=2
+Traceback (most recent call last):
+  File "C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\src\pipeline\ingestion.py", line 49, in
+run_ingestion
+    payload = client.get_page(page, int(api.get("page_size", 250)))
+  File "C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\src\pipeline\client.py", line 47, in get_page
+    response.raise_for_status()
+  File "C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-packages\httpx\_models.py", line
+829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Server error '503 Service Unavailable' for url
+'http://127.0.0.1:8000/v1/orders?page=2&page_size=25'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503
++--------------------- Traceback (most recent call last) ---------------------+
+| C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\src\pipeline\cli |
+| .py:35 in ingest                                                            |
+|                                                                             |
+|   32     """Run ingestion using configured API and storage paths."""        |
+|   33     logging.basicConfig(level=logging.INFO, format="%(asctime)s        |
+|      %(levelname)s %(message)s")                                            |
+|   34     config = load_config(config_path)                                  |
+| > 35     result = run_ingestion(config, start_page=start_page,              |
+|      max_pages=max_pages)                                                   |
+|   36     typer.echo(json.dumps(result, indent=2))                           |
+|   37                                                                        |
+|   38                                                                        |
+|                                                                             |
+| C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\src\pipeline\ing |
+| estion.py:49 in run_ingestion                                               |
+|                                                                             |
+|    46     raw_dir.mkdir(parents=True, exist_ok=True)                        |
+|    47     try:                                                              |
+|    48         while max_pages is None or pages_fetched < max_pages:         |
+| >  49             payload = client.get_page(page, int(api.get("page_size",  |
+|       250)))                                                                |
+|    50             if payload.get("page") != page:                           |
+|    51                 raise ValueError(f"API page mismatch: requested       |
+|       {page}, got {payload.get('page')}")                                   |
+|    52             raw_file = raw_dir / f"page_{page:06d}.json"              |
+|                                                                             |
+| C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\src\pipeline\cli |
+| ent.py:47 in get_page                                                       |
+|                                                                             |
+|   44                                        response.status_code, page,     |
+|      attempt + 1, delay)                                                    |
+|   45                         time.sleep(min(delay, 10))                     |
+|   46                         continue                                       |
+| > 47                 response.raise_for_status()                            |
+|   48                 payload = response.json()                              |
+|   49                 if not isinstance(payload, dict) or not                |
+|      isinstance(payload.get("data"), list):                                 |
+|   50                     raise ValueError("Unexpected API response shape:   |
+|      expected object with data list")                                       |
+|                                                                             |
+| C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-p |
+| ackages\httpx\_models.py:829 in raise_for_status                            |
+|                                                                             |
+|    826         }                                                            |
+|    827         error_type = error_types.get(status_class, "Invalid status   |
+|        code")                                                               |
+|    828         message = message.format(self, error_type=error_type)        |
+| >  829         raise HTTPStatusError(message, request=request,              |
+|        response=self)                                                       |
+|    830                                                                      |
+|    831     def json(self, **kwargs: typing.Any) -> typing.Any:              |
+|    832         return jsonlib.loads(self.content, **kwargs)                 |
++-----------------------------------------------------------------------------+
+HTTPStatusError: Server error '503 Service Unavailable' for url
+'http://127.0.0.1:8000/v1/orders?page=2&page_size=25'
+For more information check:
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) python scripts\show_state.py
+RUNS:
+   {'status': 'failed', 'pages_fetched': 1, 'records_fetched': 25, 'accepted_count': 18, 'rejected_count': 6, 'skipped_e
+xisting_count': 1, 'error_message': "HTTPStatusError: Server error '503 Service Unavailable' for url 'http://127.0.0.1:8
+000/v1/orders?page=2&page_size=25'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+/503"}
+CHECKPOINT: {'checkpoint_name': 'orders', 'next_page': 2}
+ORDERS IN TARGET: 18
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) (Get-Content config\config.yaml) -replace 'page_size: 25','page_size: 250' | Set-Content config\config.yaml
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) findstr page_size config\config.yaml
+  page_size: 250
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) (Get-Content config\config.yaml) -replace 'page_size:\s*\d+\s*$','page_size: 250' | Set-Content config\config.yaml
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) findstr page_size config\config.yaml
+  page_size: 250
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) Remove-Item evidence\partial_failure_demo.txt -ErrorAction SilentlyContinue
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) Remove-Item data\output\pipeline.db* -Force -ErrorAction SilentlyContinue
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) Remove-Item data\output\raw -Recurse -Force -ErrorAction SilentlyContinue
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) Remove-Item reports\run_*.json -ErrorAction SilentlyContinue
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) python -m pipeline.cli ingest
+2026-10-28 15:37:40,194 INFO HTTP Request: GET http://127.0.0.1:8000/v1/orders?page=1&page_size=250 "HTTP/1.1 200 OK"
+2026-10-28 15:37:40,211 INFO run_id=1bacb991-f263-4e41-be75-5c25217d561f page=1 fetched=100 accepted=93 rejected=6 skipp
+ed_existing=1
+{
+  "run_id": "1bacb991-f263-4e41-be75-5c25217d561f",
+  "status": "success",
+  "started_at": "2026-10-28T10:07:39.984170+00:00",
+  "ended_at": "2026-10-28T10:07:40.211905+00:00",
+  "pages_fetched": 1,
+  "records_fetched": 100,
+  "accepted_count": 93,
+  "rejected_count": 6,
+  "published_count": 93,
+  "skipped_existing_count": 1,
+  "reconciles": true,
+  "next_page": 2
+}
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) python -m pipeline.cli ingest --start-page 1
+2026-10-28 15:37:42,934 INFO HTTP Request: GET http://127.0.0.1:8000/v1/orders?page=1&page_size=250 "HTTP/1.1 200 OK"
+2026-10-28 15:37:42,953 INFO run_id=6a3592ac-219b-4aad-b2da-ed072065b69b page=1 fetched=100 accepted=0 rejected=6 skippe
+d_existing=94
+{
+  "run_id": "6a3592ac-219b-4aad-b2da-ed072065b69b",
+  "status": "success",
+  "started_at": "2026-10-28T10:07:42.734027+00:00",
+  "ended_at": "2026-10-28T10:07:42.953103+00:00",
+  "pages_fetched": 1,
+  "records_fetched": 100,
+  "accepted_count": 0,
+  "rejected_count": 6,
+  "published_count": 0,
+  "skipped_existing_count": 94,
+  "reconciles": true,
+  "next_page": 2
+}
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) python -m pipeline.cli reconcile
+{
+  "run_count": 2,
+  "records_fetched_across_runs": 200,
+  "accepted_across_runs": 93,
+  "rejected_across_runs": 12,
+  "published_across_runs": 93,
+  "skipped_existing_across_runs": 95,
+  "unexplained_records": 0,
+  "source_reconciles": true,
+  "target_matches_accepted": true,
+  "target_rows": 93,
+  "target_amount_sum": 210093.06,
+  "quarantine_rows": 12,
+  "duplicate_target_keys": 0,
+  "target_primary_key_unique": true,
+  "note": "Run-level counts include replays; target_rows is the unique current target state. Quarantine is an append-onl
+y audit log, one set of rows per run."
+}
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) python -m pipeline.cli benchmark-cmd
+{
+  "target_rows_sqlite": 93,
+  "target_rows_parquet": 93,
+  "sqlite_count_seconds": 0.0029,
+  "parquet_read_seconds": 0.08371,
+  "optimization": "For larger volumes, batch inserts with executemany and partition Parquet by event date; measure befor
+e adding concurrency."
+}
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) New-Item -ItemType Directory -Force evidence\small_sample | Out-Null
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) Copy-Item reports\*.json evidence\small_sample\
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) Copy-Item reports\pytest_output.txt evidence\small_sample\
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) dir evidence
+
+
+    Directory: C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\evidence
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/28/2026   3:38 PM                small_sample
+-a----        10/28/2026   3:29 PM          14172 failure_run.txt
+-a----        10/28/2026   3:37 PM          16623 partial_failure_demo.txt
+-a----        10/28/2026   3:32 PM           1204 resume_reconcile.txt
+-a----        10/28/2026   3:32 PM           2888 resume_run.txt
+-a----        10/28/2026   3:32 PM           1242 resume_state.txt
+
+
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) dir evidence\small_sample
+
+
+    Directory: C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\evidence\small_sample
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/28/2026   3:37 PM            278 benchmark.json
+-a----        10/28/2026   3:00 PM           4126 pytest_output.txt
+-a----        10/28/2026   3:37 PM            602 reconciliation.json
+-a----        10/28/2026   3:37 PM            383 run_1bacb991-f263-4e41-be75-5c25217d561f.json
+-a----        10/28/2026   3:37 PM            382 run_6a3592ac-219b-4aad-b2da-ed072065b69b.json
+
+
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) python -m pipeline.cli generate --count 100000 --seed 42 --output data/sample/orders.json --no-edge-cases
+Wrote 100000 records to data\sample\orders.json
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) python -m pipeline.cli generate --count 100000 --seed 42 --output data/sample/orders.json --no-edge-cases
+Wrote 100000 records to data\sample\orders.json
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) python -m pipeline.cli reconcile --help
+
+ Usage: python -m pipeline.cli reconcile [OPTIONS]
+
+ Write reconciliation output and print it.
+
+┌─ Options ───────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ --config-path        <str>  [default: config/config.yaml]                                                           │
+│ --help                      Show this message and exit.                                                             │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) python -m pipeline.cli reconcile --config-path config/config_large.yaml
+{
+  "run_count": 1,
+  "records_fetched_across_runs": 0,
+  "accepted_across_runs": 0,
+  "rejected_across_runs": 0,
+  "published_across_runs": 0,
+  "skipped_existing_across_runs": 0,
+  "unexplained_records": 0,
+  "source_reconciles": true,
+  "target_matches_accepted": false,
+  "target_rows": 50250,
+  "target_amount_sum": 125312971.8,
+  "quarantine_rows": 0,
+  "duplicate_target_keys": 0,
+  "target_primary_key_unique": true,
+  "note": "Run-level counts include replays; target_rows is the unique current target state. Quarantine is an append-onl
+y audit log, one set of rows per run."
+}
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) python -m pipeline.cli benchmark-cmd --config-path config/config_large.yaml
+┌───────────────────────────────────────── Traceback (most recent call last) ─────────────────────────────────────────┐
+│ C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\src\pipeline\cli.py:53 in benchmark_cmd                  │
+│                                                                                                                     │
+│   50 def benchmark_cmd(config_path: str = "config/config.yaml"):                                                    │
+│   51 │   """Benchmark basic SQLite count and Parquet read."""                                                       │
+│   52 │   config = load_config(config_path)                                                                          │
+│ > 53 │   result = benchmark(                                                                                        │
+│   54 │   │   config["paths"]["database"],                                                                           │
+│   55 │   │   str(Path(config["paths"]["parquet_dir"]) / "orders.parquet"),                                          │
+│   56 │   │   str(Path(config["paths"]["reports_dir"]) / "benchmark.json"),                                          │
+│                                                                                                                     │
+│ C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\src\pipeline\reporting.py:57 in benchmark                │
+│                                                                                                                     │
+│   54 │   finally:                                                                                                   │
+│   55 │   │   connection.close()                                                                                     │
+│   56 │   start = time.perf_counter()                                                                                │
+│ > 57 │   frame = pd.read_parquet(parquet_path)                                                                      │
+│   58 │   timings["parquet_read_seconds"] = round(time.perf_counter() - start, 6)                                    │
+│   59 │   result = {                                                                                                 │
+│   60 │   │   "target_rows_sqlite": count, "target_rows_parquet": len(frame),                                        │
+│                                                                                                                     │
+│ C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-packages\pandas\io\parquet.py:669 in      │
+│ read_parquet                                                                                                        │
+│                                                                                                                     │
+│   666 │   │   use_nullable_dtypes = False                                                                           │
+│   667 │   check_dtype_backend(dtype_backend)                                                                        │
+│   668 │                                                                                                             │
+│ > 669 │   return impl.read(                                                                                         │
+│   670 │   │   path,                                                                                                 │
+│   671 │   │   columns=columns,                                                                                      │
+│   672 │   │   filters=filters,                                                                                      │
+│                                                                                                                     │
+│ C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-packages\pandas\io\parquet.py:258 in read │
+│                                                                                                                     │
+│   255 │   │   manager = _get_option("mode.data_manager", silent=True)                                               │
+│   256 │   │   if manager == "array":                                                                                │
+│   257 │   │   │   to_pandas_kwargs["split_blocks"] = True                                                           │
+│ > 258 │   │   path_or_handle, handles, filesystem = _get_path_or_handle(                                            │
+│   259 │   │   │   path,                                                                                             │
+│   260 │   │   │   filesystem,                                                                                       │
+│   261 │   │   │   storage_options=storage_options,                                                                  │
+│                                                                                                                     │
+│ C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-packages\pandas\io\parquet.py:141 in      │
+│ _get_path_or_handle                                                                                                 │
+│                                                                                                                     │
+│   138 │   │   # use get_handle only when we are very certain that it is not a directory                             │
+│   139 │   │   # fsspec resources can also point to directories                                                      │
+│   140 │   │   # this branch is used for example when reading from non-fsspec URLs                                   │
+│ > 141 │   │   handles = get_handle(                                                                                 │
+│   142 │   │   │   path_or_handle, mode, is_text=False, storage_options=storage_options                              │
+│   143 │   │   )                                                                                                     │
+│   144 │   │   fs = None                                                                                             │
+│                                                                                                                     │
+│ C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-packages\pandas\io\common.py:882 in       │
+│ get_handle                                                                                                          │
+│                                                                                                                     │
+│    879 │   │   │   )                                                                                                │
+│    880 │   │   else:                                                                                                │
+│    881 │   │   │   # Binary mode                                                                                    │
+│ >  882 │   │   │   handle = open(handle, ioargs.mode)                                                               │
+│    883 │   │   handles.append(handle)                                                                               │
+│    884 │                                                                                                            │
+│    885 │   # Convert BytesIO or file objects passed with an encoding                                                │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+FileNotFoundError: [Errno 2] No such file or directory: 'data\\output_large\\parquet\\orders.parquet'
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) python -m pipeline.cli reconcile --config-path config/config_large.yaml
+{
+  "run_count": 1,
+  "records_fetched_across_runs": 0,
+  "accepted_across_runs": 0,
+  "rejected_across_runs": 0,
+  "published_across_runs": 0,
+  "skipped_existing_across_runs": 0,
+  "unexplained_records": 0,
+  "source_reconciles": true,
+  "target_matches_accepted": false,
+  "target_rows": 93000,
+  "target_amount_sum": 231574651.55,
+  "quarantine_rows": 0,
+  "duplicate_target_keys": 0,
+  "target_primary_key_unique": true,
+  "note": "Run-level counts include replays; target_rows is the unique current target state. Quarantine is an append-onl
+y audit log, one set of rows per run."
+}
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) python -m pipeline.cli benchmark-cmd --config-path config/config_large.yaml
+┌───────────────────────────────────────── Traceback (most recent call last) ─────────────────────────────────────────┐
+│ C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\src\pipeline\cli.py:53 in benchmark_cmd                  │
+│                                                                                                                     │
+│   50 def benchmark_cmd(config_path: str = "config/config.yaml"):                                                    │
+│   51 │   """Benchmark basic SQLite count and Parquet read."""                                                       │
+│   52 │   config = load_config(config_path)                                                                          │
+│ > 53 │   result = benchmark(                                                                                        │
+│   54 │   │   config["paths"]["database"],                                                                           │
+│   55 │   │   str(Path(config["paths"]["parquet_dir"]) / "orders.parquet"),                                          │
+│   56 │   │   str(Path(config["paths"]["reports_dir"]) / "benchmark.json"),                                          │
+│                                                                                                                     │
+│ C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\src\pipeline\reporting.py:57 in benchmark                │
+│                                                                                                                     │
+│   54 │   finally:                                                                                                   │
+│   55 │   │   connection.close()                                                                                     │
+│   56 │   start = time.perf_counter()                                                                                │
+│ > 57 │   frame = pd.read_parquet(parquet_path)                                                                      │
+│   58 │   timings["parquet_read_seconds"] = round(time.perf_counter() - start, 6)                                    │
+│   59 │   result = {                                                                                                 │
+│   60 │   │   "target_rows_sqlite": count, "target_rows_parquet": len(frame),                                        │
+│                                                                                                                     │
+│ C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-packages\pandas\io\parquet.py:669 in      │
+│ read_parquet                                                                                                        │
+│                                                                                                                     │
+│   666 │   │   use_nullable_dtypes = False                                                                           │
+│   667 │   check_dtype_backend(dtype_backend)                                                                        │
+│   668 │                                                                                                             │
+│ > 669 │   return impl.read(                                                                                         │
+│   670 │   │   path,                                                                                                 │
+│   671 │   │   columns=columns,                                                                                      │
+│   672 │   │   filters=filters,                                                                                      │
+│                                                                                                                     │
+│ C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-packages\pandas\io\parquet.py:258 in read │
+│                                                                                                                     │
+│   255 │   │   manager = _get_option("mode.data_manager", silent=True)                                               │
+│   256 │   │   if manager == "array":                                                                                │
+│   257 │   │   │   to_pandas_kwargs["split_blocks"] = True                                                           │
+│ > 258 │   │   path_or_handle, handles, filesystem = _get_path_or_handle(                                            │
+│   259 │   │   │   path,                                                                                             │
+│   260 │   │   │   filesystem,                                                                                       │
+│   261 │   │   │   storage_options=storage_options,                                                                  │
+│                                                                                                                     │
+│ C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-packages\pandas\io\parquet.py:141 in      │
+│ _get_path_or_handle                                                                                                 │
+│                                                                                                                     │
+│   138 │   │   # use get_handle only when we are very certain that it is not a directory                             │
+│   139 │   │   # fsspec resources can also point to directories                                                      │
+│   140 │   │   # this branch is used for example when reading from non-fsspec URLs                                   │
+│ > 141 │   │   handles = get_handle(                                                                                 │
+│   142 │   │   │   path_or_handle, mode, is_text=False, storage_options=storage_options                              │
+│   143 │   │   )                                                                                                     │
+│   144 │   │   fs = None                                                                                             │
+│                                                                                                                     │
+│ C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-packages\pandas\io\common.py:882 in       │
+│ get_handle                                                                                                          │
+│                                                                                                                     │
+│    879 │   │   │   )                                                                                                │
+│    880 │   │   else:                                                                                                │
+│    881 │   │   │   # Binary mode                                                                                    │
+│ >  882 │   │   │   handle = open(handle, ioargs.mode)                                                               │
+│    883 │   │   handles.append(handle)                                                                               │
+│    884 │                                                                                                            │
+│    885 │   # Convert BytesIO or file objects passed with an encoding                                                │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+FileNotFoundError: [Errno 2] No such file or directory: 'data\\output_large\\parquet\\orders.parquet'
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) Get-ChildItem reports_large\run_*.json | ForEach-Object {
+  $r = Get-Content $_ | ConvertFrom-Json
+  $s = ([datetime]$r.ended_at - [datetime]$r.started_at).TotalSeconds
+  "{0}: {1} records in {2:N1}s = {3:N0} rows/s" -f $r.status, $r.records_fetched, $s, ($r.records_fetched / $s)
+}
+success: 100000 records in 137.6s = 727 rows/s
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) New-Item -ItemType Directory -Force evidence\large_run | Out-Null
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) Copy-Item reports_large\*.json evidence\large_run\
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) @'
+import pstats
+pstats.Stats("prof.out").sort_stats("cumtime").print_stats(30)
+'@ | Set-Content scripts\show_profile.py
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) python scripts\show_profile.py
+Wed Oct 28 15:49:02 2026    prof.out
+
+         3119815 function calls (2709773 primitive calls) in 17.038 seconds
+
+   Ordered by: cumulative time
+   List reduced from 5807 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+   1119/1    0.037    0.000   17.040   17.040 {built-in method builtins.exec}
+        1    0.000    0.000   17.040   17.040 C:\Users\0203p\AppData\Local\Programs\Python\Python310\lib\runpy.py:199(ru
+n_module)
+        1    0.000    0.000   17.031   17.031 C:\Users\0203p\AppData\Local\Programs\Python\Python310\lib\runpy.py:63(_ru
+n_code)
+        1    0.000    0.000   17.031   17.031 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\src\pipeline\cl
+i.py:1(<module>)
+        1    0.000    0.000   15.443   15.443 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\typer\main.py:1133(__call__)
+        1    0.000    0.000   15.438   15.438 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\typer\_click\core.py:800(__call__)
+        1    0.000    0.000   15.438   15.438 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\typer\core.py:1188(main)
+        1    0.000    0.000   15.438   15.438 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\typer\core.py:158(_main)
+        1    0.000    0.000   15.429   15.429 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\typer\core.py:1088(invoke)
+        2    0.000    0.000   15.428    7.714 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\typer\_click\core.py:729(invoke)
+        1    0.000    0.000   15.428   15.428 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\typer\_click\core.py:468(invoke)
+        1    0.000    0.000   15.428   15.428 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\typer\main.py:1515(wrapper)
+        1    0.001    0.001   15.428   15.428 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\src\pipeline\cl
+i.py:29(ingest)
+        1    0.054    0.054   15.421   15.421 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\src\pipeline\in
+gestion.py:20(run_ingestion)
+       40    0.002    0.000   12.369    0.309 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\src\pipeline\cl
+ient.py:26(get_page)
+       40    0.000    0.000   11.763    0.294 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\httpx\_client.py:1036(get)
+       40    0.000    0.000   11.763    0.294 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\httpx\_client.py:771(request)
+       40    0.000    0.000   11.720    0.293 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\httpx\_client.py:879(send)
+       40    0.000    0.000   11.700    0.292 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\httpx\_client.py:930(_send_handling_auth)
+       40    0.000    0.000   11.699    0.292 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\httpx\_client.py:964(_send_handling_redirects)
+       40    0.001    0.000   11.698    0.292 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\httpx\_client.py:1001(_send_single_request)
+       40    0.001    0.000   11.672    0.292 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\httpx\_transports\default.py:230(handle_request)
+       40    0.001    0.000   11.666    0.292 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\httpcore\_sync\connection_pool.py:199(handle_request)
+       40    0.000    0.000   11.657    0.291 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\httpcore\_sync\connection.py:69(handle_request)
+       40    0.002    0.000   11.632    0.291 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\httpcore\_sync\http11.py:65(handle_request)
+      120    0.002    0.000   11.616    0.097 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\httpcore\_sync\http11.py:209(_receive_event)
+       40    0.000    0.000   11.608    0.290 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\httpcore\_sync\http11.py:170(_receive_response_headers)
+       80    0.001    0.000   11.596    0.145 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\httpcore\_backends\sync.py:124(read)
+       80   11.594    0.145   11.594    0.145 {method 'recv' of '_socket.socket' objects}
+   954/23    0.013    0.000    2.840    0.123 <frozen importlib._bootstrap>:1022(_find_and_load)
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) New-Item -ItemType Directory -Force evidence\large_run | Out-Null
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) Copy-Item reports_large\*.json evidence\large_run\
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) New-Item -ItemType Directory -Force evidence\large_run | Out-Null
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) Copy-Item config\config_large.yaml config\config_prof.yaml
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) (Get-Content config\config_prof.yaml) -replace 'output_large','output_prof' -replace 'reports_large','reports_prof' | Set-Content config\config_prof.yaml
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) python -m cProfile -o prof.out -m pipeline.cli ingest --config-path config/config_prof.yaml --max-pages 40 2>&1 | Out-Null
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) @'
+import pstats
+pstats.Stats("prof.out").sort_stats("cumtime").print_stats(30)
+'@ | Set-Content scripts\show_profile.py
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) python scripts\show_profile.py
+Wed Oct 28 16:15:04 2026    prof.out
+
+         3117559 function calls (2707519 primitive calls) in 17.196 seconds
+
+   Ordered by: cumulative time
+   List reduced from 5803 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+   1119/1    0.048    0.000   17.198   17.198 {built-in method builtins.exec}
+        1    0.000    0.000   17.198   17.198 C:\Users\0203p\AppData\Local\Programs\Python\Python310\lib\runpy.py:199(ru
+n_module)
+        1    0.000    0.000   17.194   17.194 C:\Users\0203p\AppData\Local\Programs\Python\Python310\lib\runpy.py:63(_ru
+n_code)
+        1    0.000    0.000   17.194   17.194 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\src\pipeline\cl
+i.py:1(<module>)
+        1    0.000    0.000   16.001   16.001 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\typer\main.py:1133(__call__)
+        1    0.000    0.000   15.998   15.998 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\typer\_click\core.py:800(__call__)
+        1    0.000    0.000   15.998   15.998 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\typer\core.py:1188(main)
+        1    0.000    0.000   15.998   15.998 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\typer\core.py:158(_main)
+        1    0.000    0.000   15.991   15.991 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\typer\core.py:1088(invoke)
+        2    0.000    0.000   15.991    7.995 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\typer\_click\core.py:729(invoke)
+        1    0.000    0.000   15.991   15.991 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\typer\_click\core.py:468(invoke)
+        1    0.000    0.000   15.991   15.991 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\typer\main.py:1515(wrapper)
+        1    0.001    0.001   15.991   15.991 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\src\pipeline\cl
+i.py:29(ingest)
+        1    0.053    0.053   15.984   15.984 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\src\pipeline\in
+gestion.py:20(run_ingestion)
+       40    0.002    0.000   12.854    0.321 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\src\pipeline\cl
+ient.py:26(get_page)
+       40    0.000    0.000   12.097    0.302 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\httpx\_client.py:1036(get)
+       40    0.000    0.000   12.097    0.302 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\httpx\_client.py:771(request)
+       40    0.000    0.000   12.063    0.302 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\httpx\_client.py:879(send)
+       40    0.000    0.000   12.044    0.301 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\httpx\_client.py:930(_send_handling_auth)
+       40    0.000    0.000   12.044    0.301 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\httpx\_client.py:964(_send_handling_redirects)
+       40    0.001    0.000   12.043    0.301 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\httpx\_client.py:1001(_send_single_request)
+       40    0.001    0.000   12.021    0.301 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\httpx\_transports\default.py:230(handle_request)
+       40    0.001    0.000   12.015    0.300 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\httpcore\_sync\connection_pool.py:199(handle_request)
+       40    0.000    0.000   12.006    0.300 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\httpcore\_sync\connection.py:69(handle_request)
+       40    0.001    0.000   11.985    0.300 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\httpcore\_sync\http11.py:65(handle_request)
+      120    0.002    0.000   11.969    0.100 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\httpcore\_sync\http11.py:209(_receive_event)
+       40    0.000    0.000   11.962    0.299 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\httpcore\_sync\http11.py:170(_receive_response_headers)
+       80    0.001    0.000   11.950    0.149 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-
+packages\httpcore\_backends\sync.py:124(read)
+       80   11.948    0.149   11.948    0.149 {method 'recv' of '_socket.socket' objects}
+   954/23    0.012    0.000    2.529    0.110 <frozen importlib._bootstrap>:1022(_find_and_load)
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>
+(.venv) python -m pipeline.cli generate --count 100 --seed 42 --output data/sample/orders.json
+Wrote 100 records to data\sample\orders.json
+PS C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline>

@@ -1,0 +1,46 @@
+﻿Thu Oct 29 13:04:29 2026    prof.out
+
+         3119734 function calls (2709692 primitive calls) in 16.229 seconds
+
+   Ordered by: internal time
+   List reduced from 5807 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       80    9.212    0.115    9.212    0.115 {method 'recv' of '_socket.socket' objects}
+       80    2.052    0.026    2.068    0.026 {built-in method _imp.create_dynamic}
+       39    1.037    0.027    1.037    0.027 {built-in method time.sleep}
+      817    0.776    0.001    0.776    0.001 {built-in method io.open_code}
+     3514    0.308    0.000    0.308    0.000 {built-in method nt.stat}
+       42    0.280    0.007    0.280    0.007 {method 'commit' of 'sqlite3.Connection' objects}
+      828    0.187    0.000    0.187    0.000 {method 'read' of '_io.BufferedReader' objects}
+641264/321264    0.168    0.000    0.294    0.000 C:\Users\0203p\AppData\Local\Programs\Python\Python310\lib\json\encoder.py:333(_iterencode_dict)
+    80/56    0.107    0.001    0.674    0.012 {built-in method _imp.exec_dynamic}
+    20126    0.104    0.000    0.104    0.000 {method 'execute' of 'sqlite3.Connection' objects}
+
+
+Thu Oct 29 13:04:29 2026    prof.out
+
+         3119734 function calls (2709692 primitive calls) in 16.229 seconds
+
+   Ordered by: cumulative time
+   List reduced from 5807 to 3744 due to restriction <'pipeline'>
+   List reduced from 3744 to 15 due to restriction <15>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   16.226   16.226 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\src\pipeline\cli.py:1(<module>)
+        1    0.000    0.000   15.306   15.306 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-packages\typer\main.py:1133(__call__)
+        1    0.000    0.000   15.302   15.302 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-packages\typer\_click\core.py:800(__call__)
+        1    0.000    0.000   15.302   15.302 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-packages\typer\core.py:1188(main)
+        1    0.000    0.000   15.302   15.302 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-packages\typer\core.py:158(_main)
+        1    0.000    0.000   15.297   15.297 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-packages\typer\core.py:1088(invoke)
+        2    0.000    0.000   15.297    7.648 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-packages\typer\_click\core.py:729(invoke)
+        1    0.000    0.000   15.297   15.297 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-packages\typer\_click\core.py:468(invoke)
+        1    0.000    0.000   15.297   15.297 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-packages\typer\main.py:1515(wrapper)
+        1    0.002    0.002   15.297   15.297 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\src\pipeline\cli.py:29(ingest)
+        1    0.041    0.041   15.290   15.290 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\src\pipeline\ingestion.py:20(run_ingestion)
+       40    0.002    0.000   10.410    0.260 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\src\pipeline\client.py:26(get_page)
+       40    0.000    0.000    9.354    0.234 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-packages\httpx\_client.py:1036(get)
+       40    0.000    0.000    9.354    0.234 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-packages\httpx\_client.py:771(request)
+       40    0.000    0.000    9.323    0.233 C:\Users\0203p\desktop\api-data-pipeline\api-data-pipeline\.venv\lib\site-packages\httpx\_client.py:879(send)
+
+

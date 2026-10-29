@@ -1,0 +1,7 @@
+{
+  "target_rows_sqlite": 100000,
+  "target_rows_parquet": 100000,
+  "sqlite_count_seconds": 0.008244,
+  "parquet_read_seconds": 0.373435,
+  "optimization": "For larger volumes, batch inserts with executemany and partition Parquet by event date; measure before adding concurrency."
+}

@@ -1,0 +1,11 @@
+{
+  "target_rows_sqlite": 100000,
+  "target_rows_parquet": 100000,
+  "sqlite_count_seconds": 0.111337,
+  "parquet_read_seconds": 0.224688,
+  "sqlite_aggregate_seconds": 0.194947,
+  "parquet_aggregate_seconds": 0.032779,
+  "aggregates_match": true,
+  "optimization": "Measured on a 100,000-record run: the run was dominated by the mock API re-parsing its data file on every request. Caching the parsed file (reloaded only when its path, mtime or size changes) cut the run from roughly 106-138 s to roughly 26-30 s. SQLite work was about 2% of runtime in a 40-page profile, so batching inserts with executemany is not justified yet.",
+  "note": "sqlite_count_seconds times COUNT(*) only, while parquet_read_seconds loads every column into a DataFrame, so those two are not like-for-like. Compare sqlite_aggregate_seconds with parquet_aggregate_seconds instead: both compute the same count and sum per status."
+}

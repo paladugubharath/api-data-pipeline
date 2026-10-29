@@ -1,0 +1,14 @@
+{
+  "run_id": "6dbcc3e6-4ea4-4e93-ba6b-2085df41b498",
+  "status": "success",
+  "started_at": "2026-10-29T07:56:42.611543+00:00",
+  "ended_at": "2026-10-29T07:58:28.497013+00:00",
+  "pages_fetched": 400,
+  "records_fetched": 100000,
+  "accepted_count": 100000,
+  "rejected_count": 0,
+  "published_count": 100000,
+  "skipped_existing_count": 0,
+  "reconciles": true,
+  "next_page": 401
+}
